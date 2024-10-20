@@ -7,6 +7,7 @@ const sum = (a,b) => a + b;
 
 const mult = (a,b) => a *  b;
 const g = 9.8;
+const pi = 9.8;
 
 
 //  module.exports = 123;
@@ -17,5 +18,6 @@ let obj = {
     sum : sum,
     mult : mult,
     g : g,
+    pi:this.pi,
 };
 module.exports = obj;

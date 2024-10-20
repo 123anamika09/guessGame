@@ -20,3 +20,4 @@ console.log(math)
 console.log(math.sum(2,3));
 console.log(math.mult(2,0));
 console.log(math.g);
+console.log(math.pi);

@@ -6,7 +6,7 @@ let btns = ["yellow","pink","red","blue"];
 let h2 = document.querySelector("h2");
 document.addEventListener("keypress" , function(){
     if(gameStarted==false){
-        console.log("game Started");
+        console.log("game is Started");
         gameStarted = true;
         levelUp();
     }
